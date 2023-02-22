@@ -1,0 +1,15 @@
+C:\Users\Georges\ToussaintG\codechallenges\02_DataTypeAndVariables\DataTypeAndVariables\bin\Debug\net6.0\DataTypeAndVariables.exe
+C:\Users\Georges\ToussaintG\codechallenges\02_DataTypeAndVariables\DataTypeAndVariables\bin\Debug\net6.0\DataTypeAndVariables.deps.json
+C:\Users\Georges\ToussaintG\codechallenges\02_DataTypeAndVariables\DataTypeAndVariables\bin\Debug\net6.0\DataTypeAndVariables.runtimeconfig.json
+C:\Users\Georges\ToussaintG\codechallenges\02_DataTypeAndVariables\DataTypeAndVariables\bin\Debug\net6.0\DataTypeAndVariables.dll
+C:\Users\Georges\ToussaintG\codechallenges\02_DataTypeAndVariables\DataTypeAndVariables\bin\Debug\net6.0\DataTypeAndVariables.pdb
+C:\Users\Georges\ToussaintG\codechallenges\02_DataTypeAndVariables\DataTypeAndVariables\obj\Debug\net6.0\DataTypeAndVariables.csproj.AssemblyReference.cache
+C:\Users\Georges\ToussaintG\codechallenges\02_DataTypeAndVariables\DataTypeAndVariables\obj\Debug\net6.0\DataTypeAndVariables.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Georges\ToussaintG\codechallenges\02_DataTypeAndVariables\DataTypeAndVariables\obj\Debug\net6.0\DataTypeAndVariables.AssemblyInfoInputs.cache
+C:\Users\Georges\ToussaintG\codechallenges\02_DataTypeAndVariables\DataTypeAndVariables\obj\Debug\net6.0\DataTypeAndVariables.AssemblyInfo.cs
+C:\Users\Georges\ToussaintG\codechallenges\02_DataTypeAndVariables\DataTypeAndVariables\obj\Debug\net6.0\DataTypeAndVariables.csproj.CoreCompileInputs.cache
+C:\Users\Georges\ToussaintG\codechallenges\02_DataTypeAndVariables\DataTypeAndVariables\obj\Debug\net6.0\DataTypeAndVariables.dll
+C:\Users\Georges\ToussaintG\codechallenges\02_DataTypeAndVariables\DataTypeAndVariables\obj\Debug\net6.0\refint\DataTypeAndVariables.dll
+C:\Users\Georges\ToussaintG\codechallenges\02_DataTypeAndVariables\DataTypeAndVariables\obj\Debug\net6.0\DataTypeAndVariables.pdb
+C:\Users\Georges\ToussaintG\codechallenges\02_DataTypeAndVariables\DataTypeAndVariables\obj\Debug\net6.0\DataTypeAndVariables.genruntimeconfig.cache
+C:\Users\Georges\ToussaintG\codechallenges\02_DataTypeAndVariables\DataTypeAndVariables\obj\Debug\net6.0\ref\DataTypeAndVariables.dll

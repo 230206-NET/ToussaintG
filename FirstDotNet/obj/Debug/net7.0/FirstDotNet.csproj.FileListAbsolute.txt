@@ -1,0 +1,15 @@
+C:\Users\Georges\Revature\ToussaintG\FirstDotNet\bin\Debug\net7.0\FirstDotNet.exe
+C:\Users\Georges\Revature\ToussaintG\FirstDotNet\bin\Debug\net7.0\FirstDotNet.deps.json
+C:\Users\Georges\Revature\ToussaintG\FirstDotNet\bin\Debug\net7.0\FirstDotNet.runtimeconfig.json
+C:\Users\Georges\Revature\ToussaintG\FirstDotNet\bin\Debug\net7.0\FirstDotNet.dll
+C:\Users\Georges\Revature\ToussaintG\FirstDotNet\bin\Debug\net7.0\FirstDotNet.pdb
+C:\Users\Georges\Revature\ToussaintG\FirstDotNet\obj\Debug\net7.0\FirstDotNet.csproj.AssemblyReference.cache
+C:\Users\Georges\Revature\ToussaintG\FirstDotNet\obj\Debug\net7.0\FirstDotNet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Georges\Revature\ToussaintG\FirstDotNet\obj\Debug\net7.0\FirstDotNet.AssemblyInfoInputs.cache
+C:\Users\Georges\Revature\ToussaintG\FirstDotNet\obj\Debug\net7.0\FirstDotNet.AssemblyInfo.cs
+C:\Users\Georges\Revature\ToussaintG\FirstDotNet\obj\Debug\net7.0\FirstDotNet.csproj.CoreCompileInputs.cache
+C:\Users\Georges\Revature\ToussaintG\FirstDotNet\obj\Debug\net7.0\FirstDotNet.dll
+C:\Users\Georges\Revature\ToussaintG\FirstDotNet\obj\Debug\net7.0\refint\FirstDotNet.dll
+C:\Users\Georges\Revature\ToussaintG\FirstDotNet\obj\Debug\net7.0\FirstDotNet.pdb
+C:\Users\Georges\Revature\ToussaintG\FirstDotNet\obj\Debug\net7.0\FirstDotNet.genruntimeconfig.cache
+C:\Users\Georges\Revature\ToussaintG\FirstDotNet\obj\Debug\net7.0\ref\FirstDotNet.dll

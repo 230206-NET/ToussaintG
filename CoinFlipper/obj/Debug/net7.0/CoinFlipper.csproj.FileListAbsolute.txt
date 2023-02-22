@@ -1,0 +1,15 @@
+C:\Users\Georges\Revature\ToussaintG\CoinFlipper\bin\Debug\net7.0\CoinFlipper.exe
+C:\Users\Georges\Revature\ToussaintG\CoinFlipper\bin\Debug\net7.0\CoinFlipper.deps.json
+C:\Users\Georges\Revature\ToussaintG\CoinFlipper\bin\Debug\net7.0\CoinFlipper.runtimeconfig.json
+C:\Users\Georges\Revature\ToussaintG\CoinFlipper\bin\Debug\net7.0\CoinFlipper.dll
+C:\Users\Georges\Revature\ToussaintG\CoinFlipper\bin\Debug\net7.0\CoinFlipper.pdb
+C:\Users\Georges\Revature\ToussaintG\CoinFlipper\obj\Debug\net7.0\CoinFlipper.csproj.AssemblyReference.cache
+C:\Users\Georges\Revature\ToussaintG\CoinFlipper\obj\Debug\net7.0\CoinFlipper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Georges\Revature\ToussaintG\CoinFlipper\obj\Debug\net7.0\CoinFlipper.AssemblyInfoInputs.cache
+C:\Users\Georges\Revature\ToussaintG\CoinFlipper\obj\Debug\net7.0\CoinFlipper.AssemblyInfo.cs
+C:\Users\Georges\Revature\ToussaintG\CoinFlipper\obj\Debug\net7.0\CoinFlipper.csproj.CoreCompileInputs.cache
+C:\Users\Georges\Revature\ToussaintG\CoinFlipper\obj\Debug\net7.0\CoinFlipper.dll
+C:\Users\Georges\Revature\ToussaintG\CoinFlipper\obj\Debug\net7.0\refint\CoinFlipper.dll
+C:\Users\Georges\Revature\ToussaintG\CoinFlipper\obj\Debug\net7.0\CoinFlipper.pdb
+C:\Users\Georges\Revature\ToussaintG\CoinFlipper\obj\Debug\net7.0\CoinFlipper.genruntimeconfig.cache
+C:\Users\Georges\Revature\ToussaintG\CoinFlipper\obj\Debug\net7.0\ref\CoinFlipper.dll

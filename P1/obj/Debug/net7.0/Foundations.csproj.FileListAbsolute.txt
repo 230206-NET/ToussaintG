@@ -1,0 +1,15 @@
+C:\Users\Georges\ToussaintG\P1\obj\Debug\net7.0\Foundations.csproj.AssemblyReference.cache
+C:\Users\Georges\ToussaintG\P1\obj\Debug\net7.0\Foundations.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Georges\ToussaintG\P1\obj\Debug\net7.0\Foundations.AssemblyInfoInputs.cache
+C:\Users\Georges\ToussaintG\P1\obj\Debug\net7.0\Foundations.AssemblyInfo.cs
+C:\Users\Georges\ToussaintG\P1\obj\Debug\net7.0\Foundations.csproj.CoreCompileInputs.cache
+C:\Users\Georges\ToussaintG\P1\bin\Debug\net7.0\Foundations.exe
+C:\Users\Georges\ToussaintG\P1\bin\Debug\net7.0\Foundations.deps.json
+C:\Users\Georges\ToussaintG\P1\bin\Debug\net7.0\Foundations.runtimeconfig.json
+C:\Users\Georges\ToussaintG\P1\bin\Debug\net7.0\Foundations.dll
+C:\Users\Georges\ToussaintG\P1\bin\Debug\net7.0\Foundations.pdb
+C:\Users\Georges\ToussaintG\P1\obj\Debug\net7.0\Foundations.dll
+C:\Users\Georges\ToussaintG\P1\obj\Debug\net7.0\refint\Foundations.dll
+C:\Users\Georges\ToussaintG\P1\obj\Debug\net7.0\Foundations.pdb
+C:\Users\Georges\ToussaintG\P1\obj\Debug\net7.0\Foundations.genruntimeconfig.cache
+C:\Users\Georges\ToussaintG\P1\obj\Debug\net7.0\ref\Foundations.dll

@@ -1,0 +1,15 @@
+C:\Users\Georges\Revature\ToussaintG\HotOrCold\obj\Debug\net7.0\HotOrCold.csproj.AssemblyReference.cache
+C:\Users\Georges\Revature\ToussaintG\HotOrCold\obj\Debug\net7.0\HotOrCold.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Georges\Revature\ToussaintG\HotOrCold\obj\Debug\net7.0\HotOrCold.AssemblyInfoInputs.cache
+C:\Users\Georges\Revature\ToussaintG\HotOrCold\obj\Debug\net7.0\HotOrCold.AssemblyInfo.cs
+C:\Users\Georges\Revature\ToussaintG\HotOrCold\obj\Debug\net7.0\HotOrCold.csproj.CoreCompileInputs.cache
+C:\Users\Georges\Revature\ToussaintG\HotOrCold\bin\Debug\net7.0\HotOrCold.exe
+C:\Users\Georges\Revature\ToussaintG\HotOrCold\bin\Debug\net7.0\HotOrCold.deps.json
+C:\Users\Georges\Revature\ToussaintG\HotOrCold\bin\Debug\net7.0\HotOrCold.runtimeconfig.json
+C:\Users\Georges\Revature\ToussaintG\HotOrCold\bin\Debug\net7.0\HotOrCold.dll
+C:\Users\Georges\Revature\ToussaintG\HotOrCold\bin\Debug\net7.0\HotOrCold.pdb
+C:\Users\Georges\Revature\ToussaintG\HotOrCold\obj\Debug\net7.0\HotOrCold.dll
+C:\Users\Georges\Revature\ToussaintG\HotOrCold\obj\Debug\net7.0\refint\HotOrCold.dll
+C:\Users\Georges\Revature\ToussaintG\HotOrCold\obj\Debug\net7.0\HotOrCold.pdb
+C:\Users\Georges\Revature\ToussaintG\HotOrCold\obj\Debug\net7.0\HotOrCold.genruntimeconfig.cache
+C:\Users\Georges\Revature\ToussaintG\HotOrCold\obj\Debug\net7.0\ref\HotOrCold.dll

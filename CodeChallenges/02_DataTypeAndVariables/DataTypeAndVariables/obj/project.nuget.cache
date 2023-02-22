@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "pt7rWg/mZlIeKdrEjYwHFdp4F1jOU2ylcXCdytDx9IIu6tipXDxhJ9OxqEwSGjJTR+dRR5/cohd/QkYpSyctVQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Georges\\ToussaintG\\codechallenges\\02_DataTypeAndVariables\\DataTypeAndVariables\\DataTypeAndVariables.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Georges\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.13\\microsoft.netcore.app.ref.6.0.13.nupkg.sha512",
+    "C:\\Users\\Georges\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.13\\microsoft.windowsdesktop.app.ref.6.0.13.nupkg.sha512",
+    "C:\\Users\\Georges\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.13\\microsoft.aspnetcore.app.ref.6.0.13.nupkg.sha512",
+    "C:\\Users\\Georges\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.13\\microsoft.netcore.app.host.win-x64.6.0.13.nupkg.sha512"
+  ],
+  "logs": []
+}
