@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Georges\\ToussaintG\\P1\\DBRepository\\DBRepository.csproj": {}
+    "C:\\Users\\Georges\\ToussaintG\\p1\\DBRepository\\DBRepository.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Georges\\ToussaintG\\P1\\DBRepository\\DBRepository.csproj": {
+    "C:\\Users\\Georges\\ToussaintG\\p1\\DBRepository\\DBRepository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Georges\\ToussaintG\\P1\\DBRepository\\DBRepository.csproj",
+        "projectUniqueName": "C:\\Users\\Georges\\ToussaintG\\p1\\DBRepository\\DBRepository.csproj",
         "projectName": "DBRepository",
-        "projectPath": "C:\\Users\\Georges\\ToussaintG\\P1\\DBRepository\\DBRepository.csproj",
+        "projectPath": "C:\\Users\\Georges\\ToussaintG\\p1\\DBRepository\\DBRepository.csproj",
         "packagesPath": "C:\\Users\\Georges\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Georges\\ToussaintG\\P1\\DBRepository\\obj\\",
+        "outputPath": "C:\\Users\\Georges\\ToussaintG\\p1\\DBRepository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Georges\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -43,6 +43,10 @@
             "Microsoft.Data.SqlClient": {
               "target": "Package",
               "version": "[5.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0-preview.1.23111.4, )"
             }
           },
           "imports": [

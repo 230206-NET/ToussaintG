@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Georges\\ToussaintG\\P1\\Foundations.csproj": {}
+    "C:\\Users\\Georges\\ToussaintG\\p1\\Foundations.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Georges\\ToussaintG\\P1\\Foundations.csproj": {
+    "C:\\Users\\Georges\\ToussaintG\\p1\\Foundations.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Georges\\ToussaintG\\P1\\Foundations.csproj",
+        "projectUniqueName": "C:\\Users\\Georges\\ToussaintG\\p1\\Foundations.csproj",
         "projectName": "Foundations",
-        "projectPath": "C:\\Users\\Georges\\ToussaintG\\P1\\Foundations.csproj",
+        "projectPath": "C:\\Users\\Georges\\ToussaintG\\p1\\Foundations.csproj",
         "packagesPath": "C:\\Users\\Georges\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Georges\\ToussaintG\\P1\\obj\\",
+        "outputPath": "C:\\Users\\Georges\\ToussaintG\\p1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Georges\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -43,6 +43,14 @@
             "Microsoft.Data.SqlClient": {
               "target": "Package",
               "version": "[5.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0-preview.1.23111.4, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[7.0.2, )"
             }
           },
           "imports": [

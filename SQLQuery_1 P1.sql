@@ -7,19 +7,19 @@ DROP Table Expense;
 
 Create Table Users(
     
-    Username VARCHAR(50),
-    Password VARCHAR(50),
-    FirstName VARCHAR,
-    LastName VARCHAR,
+    Username NVARCHAR,
+    Password NVARCHAR,
+    FirstName NVARCHAR,
+    LastName NVARCHAR,
     employeeID INT
 );
 
 Create Table Admin(
    
-    username VARCHAR,
-    password VARCHAR,
-    FirstName VARCHAR,
-    LastName VARCHAR,
+    Username NVARCHAR,
+    Password NVARCHAR,
+    FirstName NVARCHAR,
+    LastName NVARCHAR,
     adminID INT
 
 );
@@ -32,6 +32,7 @@ Create Table Expense(
 
 
 );
+
 SELECT * From Users
 
 SELECT * From Admin
