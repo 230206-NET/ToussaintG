@@ -1,4 +1,4 @@
-﻿//The purpose of this class is to get and set a username
+//The purpose of this class is to get and set a username
 // and password and return an employee Id number
 
 using System;
@@ -83,8 +83,6 @@ public List<UsersPass> Employees { get; set; }
         sb.Append("\n$FirstName: {this.FirstName}/nLastName: {this.LastName}");
        
 
-        return sb.ToString();
-    }
 
 }
 
