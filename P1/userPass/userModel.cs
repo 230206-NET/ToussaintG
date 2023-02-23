@@ -1,24 +1,23 @@
-//The purpose of this class is to get and set a username
-// and password and return an employee Id number
-
+﻿//The purpose of this class is to get and set a username,
+// password, firstname, lastname and return an employee Id number
 using System;
-using System.Collections.Generic;
-using System.Text;
-namespace userPass;
+namespace userModel;
 
-public class logIn{
+public class logUser{
   
 Random rand = new Random();
 
     private string user;
     private string pass;
+    private string FirstName;
+    private string LastName;
 
    
-    public void employeeId(){
+    public int employeeId(){
 
 
         int iD = rand.Next(1000,9999);
-        Console.WriteLine("Employee ID: " + iD);
+        return iD;
 
 
     } 
@@ -73,15 +72,6 @@ private string LastName{
     
 }
 
-public List<UsersPass> Employees { get; set; }
-
-    public override string ToString()
-    {
-        StringBuilder sb = new();
-        
-        sb.Append($"User: {this.User}\nPassword: {this.Pass}");
-        sb.Append("\n$FirstName: {this.FirstName}/nLastName: {this.LastName}");
-       
 
 
 }
