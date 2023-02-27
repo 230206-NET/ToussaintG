@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tQTHdUmrM5Z+hd5SiVgohnex0pleLw/H67mdORhAuf604XQxQSUmiTVc8DJlDgHTX2rJeZe7gZGNQlBuURg9bA==",
+  "dgSpecHash": "dBcq5RoplkV1F1E3bWZeP07j0rkn+70fQSw7ls10hkqXmaV3EpFrSC5ZKKOzGoZbvFetwnXOJU3bmHewZMxoOA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Georges\\ToussaintG\\p1\\Foundations.csproj",
+  "projectFilePath": "C:\\Users\\Georges\\ToussaintG\\P1\\Foundations.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Georges\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Georges\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
