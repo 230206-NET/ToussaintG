@@ -7,7 +7,7 @@ namespace DBStorage;
 public interface UserRepository{
 
 
-List<signUp> getallUsers();
+List<signUp> GetAllUsers();
 
 
 void createNewUser(signUp userToRegister);

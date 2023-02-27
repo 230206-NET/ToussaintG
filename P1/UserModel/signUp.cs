@@ -18,6 +18,7 @@ namespace UserModel;
 
 public class signUp{
 
+ 
     public signUp(){
 
         newUser = new List<logUser>();
@@ -25,7 +26,8 @@ public class signUp{
     }
 
 
-
+    
+    public int ID{get; set; }
     private string _userName = DateTime.Now.ToString();
     private string _passWord = DateTime.Now.ToString();
     //private int _iD;
@@ -77,9 +79,9 @@ public class signUp{
 
     }
     
-    public List<logUser> Users {get; set; }
+    public List<logUser> modelUsers {get; set; }
 
-    public override string ToString()
+     public override string ToString()
     {
         StringBuilder sb = new();
 

@@ -34,7 +34,7 @@ public class Storage:UserRepository
 
 
 
-    public List<signUp> getallUsers(){
+    public List<signUp> GetAllUsers(){
 
         Log.Information("File Storage: Retrieving user Registry");
         string fileContent = File.ReadAllText(_filePath);
@@ -50,7 +50,7 @@ public class Storage:UserRepository
         
         Log.Information("File Storage: creating a new user");
 
-        List<signUp> users = getallUsers();
+        List<signUp> users = GetAllUsers();
 
         users.Add(userToCreate);
         

@@ -14,7 +14,7 @@ public class logUser{
 
     public string User{get; set; }
     public string Pass{get; set; }
-
+    
     public string expenseName{get; set; }
 
     public double Expense;
@@ -24,7 +24,7 @@ public class logUser{
     public int getAdminId(){
 
             Random rand = new Random();
-            int Id = rand.Next(1,999);
+            int Id = rand.Next(1000,9999);
             return Id;
 
         }
