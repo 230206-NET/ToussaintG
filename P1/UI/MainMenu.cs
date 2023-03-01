@@ -12,6 +12,7 @@
 using UserModel;
 using Service;
 using DBStorage;
+using System.Threading;
 using Serilog;
 
 namespace UI;
@@ -28,17 +29,22 @@ public class MainMenu
     public void Start()
     {
         
-        Console.WriteLine("Expense Reimbursement Program");
-
+        Console.WriteLine("==================Expense Reimbursement Program==================");
+        Console.WriteLine("");
+        Console.WriteLine("*****************Main Menu*****************");
         Console.WriteLine("");
         while (true)
         {
             Console.WriteLine("What would you like to the do?");
-
+            Thread.Sleep(2000);
             Console.WriteLine("[1]: Sign Up");
+            Thread.Sleep(1000);
             Console.WriteLine("[2]: Request Reimbursement");
+            Thread.Sleep(1000);
             Console.WriteLine("[3]: Review Requests");
-            Console.WriteLine("[e]: Exit");
+            Thread.Sleep(1000);
+            Console.WriteLine("[x]: Exit");
+           
 
             string input = Console.ReadLine();
 
@@ -49,7 +55,7 @@ public class MainMenu
                 {
 
                     case "1":
-                        createNewUser();
+                        SignUp();
                         break;
 
                     case "2":
@@ -64,7 +70,7 @@ public class MainMenu
                         }
                         break;
 
-                    case "e":
+                    case "x":
                         Console.WriteLine("Terminating Program.....");
                         Environment.Exit(0);
                         break;
@@ -82,7 +88,7 @@ public class MainMenu
 
 
 
-
+            
         }
 
 
@@ -93,7 +99,73 @@ public class MainMenu
     
     
     
-    
+    private void SignUp(){
+
+        Console.WriteLine("");
+        Console.WriteLine("***************Sign up***************");
+        Console.WriteLine("");
+        
+
+
+        while(true){
+            Thread.Sleep(2000);
+            Console.WriteLine("What would you like to do?");
+            Thread.Sleep(1000);
+            Console.WriteLine("[1]: Sign Up as Admin");
+            Console.WriteLine("-----------------------");
+            Thread.Sleep(1000);
+            Console.WriteLine("[2]: Sign up as User");
+            Console.WriteLine("-----------------------");
+            Thread.Sleep(1000);
+            Console.WriteLine("[x]: Exit");
+
+            
+            Console.WriteLine("");
+            
+
+            string choice = Console.ReadLine();
+
+            switch(choice){
+                case ("1"):
+                    createNewAdmin();
+                    break;
+
+
+                case ("2"):
+                    createNewUser();
+
+                    break;
+
+
+                case "x":
+                    Console.WriteLine("Returning to Main Menu.......");
+                    Console.WriteLine("");
+                    Start();
+                    break;
+
+
+
+
+                default:
+                    Console.WriteLine("Please make a valid choice.....");
+                    break;
+
+
+
+            }
+            
+
+
+
+
+
+        }
+
+
+
+
+
+    }
     private void createNewUser(){
             
             signUp su = new signUp();
@@ -145,8 +217,6 @@ public class MainMenu
 
 
         }
-
-
      private void createNewAdmin(){
             
             adminSignUp su2 = new adminSignUp();

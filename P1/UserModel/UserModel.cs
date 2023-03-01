@@ -21,7 +21,7 @@ public class logUser{
 
     public bool isApproved{get; set; }
 
-    public int getAdminId(){
+    public int getId(){
 
             Random rand = new Random();
             int Id = rand.Next(1000,9999);
