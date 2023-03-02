@@ -1,34 +1,45 @@
 --SQL
 --Structured Query Language
 
+DROP Table Users;
+TRUNCATE TABLE Users;
+TRUNCATE TABLE Expense;
+DROP Table UserExpenses;
+DROP Table Expense;
+DROP Table Admin;
 Truncate TABLE Users
 Truncate TABLE Expense
 
 Create Table Users(
     
-    id int Primary key Identity,
+    inID int Primary key Identity,
+    userID int,
     [UserName] VARCHAR(100) not NULL,
     [PassKey] varCHAR(100) not null,
 );
 Create Table Expense(
-    id int PRIMARY KEY identity,
+    inID int PRIMARY KEY identity,
+    ExpenseDate VARCHAR(100),
     ExpenseName VARCHAR(100),
     ExpenseAmnt Money,
-    IsAppoved CHAR(1),
+    userID int,
+    IsApproved VARCHAR(100),
 );
 
 Create Table UserExpenses(
 id int PRIMARY key IDENTITY,
-userID int FOREIGN key REFERENCES Users(id),
+userID int FOREIGN key REFERENCES Users(inID),
 expenseID int FOREIGN KEY REFERENCES Expense(id)
 );
 Create Table Admin(
-   
-    username VARCHAR(100),
-    passkey VARCHAR(100),
+    inID int PRIMARY KEY identity,
+    UserName VARCHAR(100),
+    PassKey VARCHAR(100),
     adminID INT
 
 );
+
+--SELECT Users.inID, UserName, PassKey, Users.userID, ExpenseName, ExpenseAmnt FROM Users Left JOIN Expense on Users.userID = Expense.userID;
 
 SELECT * From Users
 
@@ -41,12 +52,8 @@ SELECT * FROM Admin
 
 
 
-INSERT INTO Users (UserName, PassKey) VALUES ('Black', 'Blue');
-INSERT INTO Expense (ExpenseName, ExpenseAmnt) VALUES ('Hotel', 1250.37);
+INSERT INTO Users (userID, UserName, PassKey) VALUES (2255, 'Saul', 'Goodman');
+INSERT INTO Expense ( userID, ExpenseName, ExpenseAmnt,IsAppoved) VALUES (4444, 'Hotel', 1250.37, 'Pending');
 INSERT INTO Admin (username, passkey, adminID) VALUES ('sampAdmin', 'BigMan', 7750);
 
 
-DROP Table Users;
-DROP Table UserExpenses;
-DROP Table Expense;
-DROP Table Admin;
