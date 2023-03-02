@@ -36,13 +36,13 @@ public class MainMenu
         while (true)
         {
             Console.WriteLine("What would you like to the do?");
-            Thread.Sleep(2000);
+            //Thread.Sleep(2000);
             Console.WriteLine("[1]: Sign Up");
-            Thread.Sleep(1000);
+            //Thread.Sleep(1000);
             Console.WriteLine("[2]: Request Reimbursement");
-            Thread.Sleep(1000);
+            //Thread.Sleep(1000);
             Console.WriteLine("[3]: Review Requests");
-            Thread.Sleep(1000);
+            //Thread.Sleep(1000);
             Console.WriteLine("[x]: Exit");
            
 
@@ -59,7 +59,7 @@ public class MainMenu
                         break;
 
                     case "2":
-                        
+                        createNewExpense();
 
                         break;
 
@@ -100,6 +100,8 @@ public class MainMenu
     
     
     private void SignUp(){
+        // signUp SU = new signUp;
+        // adminSignUp ASU = new adminSignUp;
 
         Console.WriteLine("");
         Console.WriteLine("***************Sign up***************");
@@ -108,15 +110,15 @@ public class MainMenu
 
 
         while(true){
-            Thread.Sleep(2000);
+            //Thread.Sleep(2000);
             Console.WriteLine("What would you like to do?");
-            Thread.Sleep(1000);
+            //Thread.Sleep(1000);
             Console.WriteLine("[1]: Sign Up as Admin");
             Console.WriteLine("-----------------------");
-            Thread.Sleep(1000);
+            //Thread.Sleep(1000);
             Console.WriteLine("[2]: Sign up as User");
             Console.WriteLine("-----------------------");
-            Thread.Sleep(1000);
+            //Thread.Sleep(1000);
             Console.WriteLine("[x]: Exit");
 
             
@@ -133,6 +135,8 @@ public class MainMenu
 
                 case ("2"):
                     createNewUser();
+                    
+                    
 
                     break;
 
@@ -169,6 +173,8 @@ public class MainMenu
     private void createNewUser(){
             
             signUp su = new signUp();
+            Random rand = new Random();
+            int num = rand.Next(1000,9999);
            
             
             Console.WriteLine("Intializing Sign Up....");
@@ -203,10 +209,12 @@ public class MainMenu
                 }
                 
             }
+            su._iD = num;
+            
 
            
             
-            new Storage().createNewUser(su);
+            new SQLRepository().createNewUser(su);
             Console.WriteLine(su);
             
 
@@ -220,6 +228,8 @@ public class MainMenu
      private void createNewAdmin(){
             
             adminSignUp su2 = new adminSignUp();
+            Random rand = new Random();
+            int num = rand.Next(1000,9999);
            
             
             Console.WriteLine("Intializing Sign Up....");
@@ -255,19 +265,78 @@ public class MainMenu
                 
             }
 
+            su2._iD = num;
+
            
             
-            new adminStorage().createNewAdmin(su2);
+            new SQLAdminRepository().createNewAdmin(su2);
             Console.WriteLine(su2);
-            
-
-            
-
-
-        
 
 
         }
+
+    private void createNewExpense(){
+        Expenses exp = new Expenses();
+        string approval;
+        Random rand = new Random();
+        int num = rand.Next(1000,9999);
+
+        Console.WriteLine("==========Creating New Expense Request==========");
+        Console.WriteLine("");
+        Console.WriteLine("Please Log the date the expense was made");
+        Console.WriteLine("----------------------------------------");
+        Console.WriteLine("Date:");
+        DateTime expenseDate = DateTime.Parse(Console.ReadLine());
+
+        DateTime parsed;
+        string eName;
+        double eAmount;
+        //bool parseSuccess = DateTime.TryParse(expenseDate, out parsed);
+
+        //if(parseSuccess){
+            exp.expenseDate = expenseDate;
+            
+        //}
+
+        while(true){
+            Console.WriteLine("Expense Name: ");
+            eName = Console.ReadLine();
+            
+            try{
+                exp.expenseName = eName;
+                break;
+            }
+            catch(ArgumentException eae){
+                Console.WriteLine(eae.Message);
+                continue;
+            }
+        }
+        while(true){
+            Console.WriteLine("Expense Amount: ");
+            eAmount = Double.Parse(Console.ReadLine());
+            
+            try{
+                exp.expenseAmount = eAmount;
+                break;
+            }
+            catch(ArgumentException eex){
+                Console.WriteLine(eex.Message);
+                continue;
+            }
+
+            
+        }
+        exp.approval = "Pending";
+        Console.WriteLine("Expense Name: " + eName);
+        Console.WriteLine("Expense Name: " + eAmount);
+        Console.WriteLine("You request status is: " + exp.approval);
+           
+        new SQLExpenseRepository().createNewExpense(exp);
+
+
+
+
+    }
 
 
 }

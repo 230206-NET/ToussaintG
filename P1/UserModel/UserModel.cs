@@ -14,6 +14,9 @@ public class logUser{
 
     public string User{get; set; }
     public string Pass{get; set; }
+
+    public int ID;
+
     
     public string expenseName{get; set; }
 

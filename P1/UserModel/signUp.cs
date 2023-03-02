@@ -20,19 +20,26 @@ public class signUp{
 
  
     public signUp(){
-
-        newUser = new List<logUser>();
+        
+        userExpense = new List<Expenses>();
 
     }
 
 
+    logUser lu = new logUser();
     
-    public int ID{get; set; }
     private string _userName = DateTime.Now.ToString();
     private string _passWord = DateTime.Now.ToString();
-    //private int _iD;
+    public int _iD = 0;
 
+    public int uID;
+
+    
     public List<logUser> newUser{ get; set;  }
+
+
+    
+
 
 
     //Registering a new Username
@@ -78,17 +85,38 @@ public class signUp{
         }
 
     }
+
+    public int ID{
+
+        get{
+
+            return _iD;
+
+        }
+        set{
+
+            if (value == null){
+                //Log.Warning("Models: assigning password: can't be null");
+                throw new ArgumentException("Something went wrong");
+            }
+            else{
+                _iD = value;
+            }
+        }
+
+
+    }
     
-    public List<logUser> modelUsers {get; set; }
+    public List<Expenses> userExpense {get; set; }
 
      public override string ToString()
     {
         StringBuilder sb = new();
 
-        sb.Append($"User: {this.User}\nPass: {this.Pass}");
-        foreach(logUser lu in newUser){
+        sb.Append($"User: {this.User}\nPass: {this.Pass}\nUserID: {this.ID}\n\n");
+        foreach(Expenses ex in userExpense){
             sb.Append("\n");
-            sb.Append(lu.ToString());
+            sb.Append(ex.ToString());
         }
         return sb.ToString();
     }
@@ -113,7 +141,7 @@ public class adminSignUp{
 
     private string _aUserName = DateTime.Now.ToString();
     private string _aPassWord = DateTime.Now.ToString();
-    //private int _iD;
+    public int _iD = 0;
 
     public List<logUser> newAdmin{ get; set;  }
 
@@ -161,6 +189,27 @@ public class adminSignUp{
         }
 
     }
+
+    public int aID{
+
+        get{
+
+            return _iD;
+
+        }
+        set{
+
+            if (value == null){
+                //Log.Warning("Models: assigning password: can't be null");
+                throw new ArgumentException("Something went wrong");
+            }
+            else{
+                _iD = value;
+            }
+        }
+
+
+    }
     
     public List<logUser> Admins {get; set; }
 
@@ -168,7 +217,7 @@ public class adminSignUp{
     {
         StringBuilder sb = new();
 
-        sb.Append($"User: {this.Admin}\nPass: {this.aPass}");
+        sb.Append($"User: {this.Admin}\nPass: {this.aPass}\nAdminID: {this.aID}\n\n");
         foreach(logUser lu in newAdmin){
             sb.Append("\n");
             sb.Append(lu.ToString());

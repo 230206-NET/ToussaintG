@@ -16,6 +16,7 @@ Log.Logger = new LoggerConfiguration()
         Log.Information("Please Standby......");
 
         UserRepository repo = new SQLRepository();
+        //new SQLRepository().createNewUser(2);
         logService service = new logService(repo);
         MainMenu menu = new MainMenu(service);
         menu.Start();

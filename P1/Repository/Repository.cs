@@ -10,7 +10,7 @@ public interface UserRepository{
 List<signUp> GetAllUsers();
 
 
-void createNewUser(signUp userToRegister);
+signUp createNewUser(signUp userToRegister);
 
 
 }
@@ -22,15 +22,15 @@ public interface AdminRepository{
  List<adminSignUp> getallAdmins();
 
 
- void createNewAdmin(adminSignUp adminToRegister);
+ adminSignUp createNewAdmin(adminSignUp adminToRegister);
 
 }
-/*
+
 
 public interface ExpenseRepository{
 
+    //List<Expenses> searchExpensesbyPending();
 
-
+    Expenses createNewExpense(Expenses expenseToRegister);
+    
 }
-
-*/

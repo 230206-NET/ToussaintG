@@ -46,7 +46,7 @@ public class Storage:UserRepository
 
    
 
-    public void createNewUser(signUp userToCreate){
+    public signUp createNewUser(signUp userToCreate){
         
         Log.Information("File Storage: creating a new user");
 
@@ -56,6 +56,7 @@ public class Storage:UserRepository
         
         string content = JsonSerializer.Serialize(users);
         File.WriteAllText(_filePath,content);
+        return userToCreate;
     }
 
    
@@ -90,10 +91,10 @@ private const string _aFilePath = "../Repository/aRepository.json";
         return JsonSerializer.Deserialize<List<adminSignUp>>(aFileContent);
 
     }
- public void createNewAdmin(adminSignUp adminToCreate){
+ public adminSignUp createNewAdmin(adminSignUp adminToCreate){
         
         Log.Information("File Storage: creating a new Admin");
-        
+
 
         List<adminSignUp> admins = getallAdmins();
 
@@ -101,8 +102,10 @@ private const string _aFilePath = "../Repository/aRepository.json";
         
         string aContent = JsonSerializer.Serialize(admins);
         File.WriteAllText(_aFilePath,aContent);
+        return adminToCreate;
     }
 
 
 
 }
+
