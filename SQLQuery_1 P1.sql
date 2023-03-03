@@ -23,7 +23,7 @@ Create Table Expense(
     ExpenseName VARCHAR(100),
     ExpenseAmnt Money,
     userID int,
-    IsApproved VARCHAR(100),
+    IsApproved VARCHAR(100) not null,
 );
 
 Create Table UserExpenses(
@@ -41,8 +41,8 @@ Create Table Admin(
 
 --SELECT Users.inID, UserName, PassKey, Users.userID, ExpenseName, ExpenseAmnt FROM Users Left JOIN Expense on Users.userID = Expense.userID;
 
-SELECT * From Users
 
+SELECT* From Users
 SELECT * From Expense
 
 SELECT * From UserExpenses

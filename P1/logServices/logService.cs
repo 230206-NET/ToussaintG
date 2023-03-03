@@ -72,22 +72,7 @@ public class logService
         }
         return filtered;
     }
-/*    public List<signUp> adminLogInByCredentials(string username, string password, int adminID){
 
-        List<signUp> allUsers = GetAllUsers();
-        List<signUp> filtered = new();
-        foreach(signUp s in allUsers){
-            foreach(Expenses ex in s.userExpense){
-                if (ex.approval.Contains(searchTerm)){
-                    filtered.Add(s);
-                    break;
-                }
-            }
-        }
-        return filtered;
-
-    }
-*/
     public List<Expenses> searchExpensesByApproval(string searchTerm){
 
         List<Expenses> allUsers = GetAllExpenses();
@@ -104,6 +89,12 @@ public class logService
 
     public void createNewUser(signUp userToCreate){
         _repo.createNewUser(userToCreate);
+    }
+    public void createNewAdmin(adminSignUp adminToCreate){
+        _Repo.createNewAdmin(adminToCreate);
+    }
+    public void createNewExpense(Expenses expenseToCreate){
+        _eRepo.createNewExpense (expenseToCreate);
     }
 
 
