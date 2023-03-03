@@ -168,6 +168,35 @@ public class SQLAdminRepository: AdminRepository{
 
 public class SQLExpenseRepository: ExpenseRepository{
 
+    public List<Expenses> getallExpenses(){
+
+
+    List<Expenses> allExpenses = new();
+    Secrets sec = new Secrets();
+    SqlConnection conn = new SqlConnection(sec.getconnestionString());
+
+    conn.Open();
+
+    using SqlCommand cmd = new SqlCommand("SELECT Expense.userID AS uID, ExpenseName, ExpenseAmnt, IsApproved From Expense", conn);
+    using SqlDataReader reader = cmd.ExecuteReader();
+
+    
+        while(reader.Read()){
+            allExpenses.Add(
+            new Expenses{
+            expenseName = (string)reader["ExpenseName"],
+            uID = (int)reader["uID"],
+            expenseAmount = (decimal)reader["ExpenseAmnt"],
+            approval = (string)reader["IsApproved"]
+            });
+
+
+        }
+    
+
+
+    return allExpenses;
+}
     public Expenses createNewExpense(Expenses expenseToRegister){
 
     Secrets sec = new Secrets();

@@ -29,7 +29,7 @@ public interface AdminRepository{
 
 public interface ExpenseRepository{
 
-    //List<Expenses> searchExpensesbyPending();
+    List<Expenses> getallExpenses();
 
     Expenses createNewExpense(Expenses expenseToRegister);
     

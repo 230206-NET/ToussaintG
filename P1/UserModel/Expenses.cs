@@ -1,3 +1,4 @@
+using System;
 namespace UserModel;
 
 
@@ -8,17 +9,17 @@ public class Expenses{
 
     public int expID;
 
-    public double expenseAmount{get;set; }
+    public decimal expenseAmount{get;set; }
 
     public string expenseName{get; set; }
 
     public DateTime expenseDate{get;set; } = DateTime.Now;
 
-    public string approval;
+    public string approval{get; set; }
 
     public override string ToString()
     {
-        return $"Expense Name: {this.expenseName}\nExpense AMount:{this.expenseAmount}";
+        return $"Expense Name: {this.expenseName}\nExpense Amount:{this.expenseAmount}\nApproval:{this.approval}";
     }
 
 
